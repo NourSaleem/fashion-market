@@ -1,0 +1,10 @@
+.active .darkColor {
+  color:#be185d;
+  font-weight:bold;
+}
+
+.active .lightColor{
+  color:#be123c;
+  font-weight:bold;
+}
+

@@ -1,0 +1,15 @@
+
+  <div class="h-16 flex flex-col md:flex-row justify-center items-center gap-y-4 md:gap-x-8">
+    <span
+      class="category"
+      (click)="detectChanges($event)"
+      >All</span
+    >
+    <span
+      class="category"
+      *ngFor="let option of data"
+      (click)="detectChanges($event)"
+      >{{ option | titlecase }}</span
+    >
+  </div>
+
